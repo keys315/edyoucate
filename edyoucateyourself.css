@@ -1,0 +1,42 @@
+.Ed1{
+	text-align: center;
+	font-size: 60px;
+	color:fuchsia;
+}
+
+.ed2{
+	line-height: 50px;
+	font-size: 25px;
+	color:fuchsia;
+}
+
+
+body{
+	background-image: url(http://cdn.grid.fotosearch.com/CSP/CSP963/k9634077.jpg)
+}
+
+.ed3{
+	display:inline-block;
+	font-size: 25px;
+	color:gray;
+	border-style:solid;
+	border-width: 5px;
+	border-color:black;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-align: right;
+	background-color: #4acaa8;
+}
+.ed3:hover {
+font: bold 30px Helvetica, Arial, Sans-Serif;
+    text-shadow: 1px 1px #fe4902, 2px 2px #fe4902, 3px 3px #fe4902;
+
+}
+.ed3{
+	text-align: center;
+	border-color: orange;
+	border-width: 6px;
+	border-style: outset;
+	color:transparent;
+	text-shadow: 0 0 5px rgba(0,0,0,0.5);

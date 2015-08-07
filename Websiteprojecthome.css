@@ -1,0 +1,85 @@
+title{
+	font-family: Arial;
+}
+body{
+	background-color: #006666;
+}
+
+nav{
+	line-height:30px;
+    background-color:#999966;
+    height:300px;
+    width:300px;
+    float:right;
+    padding:5px;
+    font-size: 25px;
+}
+.menu {
+    width:300px;
+    margin:0px auto;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:Arial;
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:black;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:black;
+}
+ 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#2e2728;
+}
+ 
+.menu li:hover .sub-menu{
+} 
+.sub-menu{
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+}
